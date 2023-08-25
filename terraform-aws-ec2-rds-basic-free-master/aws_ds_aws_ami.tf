@@ -21,6 +21,7 @@
 #dg test agent pattern trigger */*/*.tf failed
 #dg test agent pattern trigger  /**/*.tf successful
 #dg test no agent patter trigger */**/*.tf
+#dg test no agent pattern trigger  /**/*.tf
 
   data "aws_ami" "ubuntu1604" {
       most_recent = true
