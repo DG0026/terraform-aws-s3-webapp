@@ -7,7 +7,7 @@
 # EC2 Instance(s)
 #-------------------------
 
-#DG-test
+#DG_test
 resource "aws_instance" "default" {
 
   # (Required) The AMI to use for the instance.
