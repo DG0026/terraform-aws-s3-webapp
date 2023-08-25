@@ -17,7 +17,8 @@
   # Ubuntu AMI 16.04 LTS
   #----------------------
 
-#dg test agent pattern trigger 
+#dg test agent pattern trigger /*/*.tf successful
+#dg test agent pattern trigger */*/*.tf
 
   data "aws_ami" "ubuntu1604" {
       most_recent = true
