@@ -17,7 +17,7 @@
   # Ubuntu AMI 16.04 LTS
   #----------------------
 
-#test agent pull using directory pattern. 2 level. 
+#dg test 
 
   data "aws_ami" "ubuntu1604" {
       most_recent = true
